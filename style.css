@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+img, #top-imagem{
+    width: 100%; 
+    height: auto; 
+    max-width: 700px; 
+    margin-top: 30%;
+    margin-bottom: -7rem; 
+    object-fit: contain;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    gap: 0px;
+    font-family: "Playfair Display", sans-serif;
+    background-color: #FFF5E7;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    margin: 0; 
+    padding: 0; 
+}
+
+h1{
+    font-size: 2.5rem;
+    color: #0047AB;
+    text-align: center; 
+}
+
+main {
+    flex: 1;
+}
+section {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 3rem; 
+}
+
+section input {
+    width: 30rem; 
+    border: none; 
+    padding: 1rem; 
+    border-radius: 1.5rem; 
+    margin-bottom: 1rem; 
+    font-size: 1rem; 
+    box-sizing: border-box; 
+    color: #42464f;
+}
+
+
+section button, #home-button{
+    padding: 0.8rem 1.2rem; 
+    border: none; 
+    border-radius: 1.5rem; 
+    background-color: #D4AF37; 
+    color: #ffffff; 
+    font-size: 1rem; 
+    cursor: pointer; 
+}
+
+
+section button:hover, #home-button:hover {
+    background-color: #B5651D; 
+    box-shadow: 0 4px 8px #834814; 
+}
+
+#botao-buscar{
+    background-color: #f36a57;
+    font-size: 1.1rem;
+}
+
+#botao-buscar:hover{
+    background-color: #a81010;
+    box-shadow: 0 4px 8px #630c0c;
+}
+
+#top-imagem{
+    margin-top: 90%;
+}
+
+#home-button{
+    text-decoration: none;
+}
+
+.mensagem{
+    color: #0047AB;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.selected{
+    background-color: #B5651D;
+}
+
+
+.resultados-pesquisa, .resultados-receita {
+    width: 60rem; 
+    height: 46vh; 
+    overflow-y: auto; 
+    margin-top: 1rem; 
+    padding: 1rem; 
+    border-radius: 0.6rem; 
+}
+.resultados-receita {
+    height: auto;
+    overflow-y: hidden; 
+}
+
+
+.item-resultado {
+    background: #FFFFFF;
+    border-radius: 0.6rem; 
+    padding: 1rem; 
+    margin-bottom: 1rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item-resultado h2 {
+    font-size: 1.5rem;
+    color: #0047AB; 
+}
+
+.item-resultado a {
+    text-decoration: none; 
+    color: #0047AB; 
+}
+
+.item-resultado a:hover {
+    text-decoration: underline; 
+}
+
+.descricao-meta {
+    color: #45474B; 
+    margin: 0.5rem 0; 
+}
+
+footer {
+    position: fixed; 
+    background-color: #f2f2f2;
+    color: #45474B; 
+    text-align: center; 
+    padding: 0;
+    width: 100%; 
+    bottom: 0; 
+    font-size: 0.7rem;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    img, #top-imagem{ 
+        margin-top: 30%; 
+        margin-bottom: -8rem; 
+        max-width: 600px;
+    }
+    #top-imagem {
+        margin-top: 110%;
+        margin-bottom: -5rem;
+    }
+    h1 {
+        font-size: 2rem; 
+        letter-spacing: 0.2rem; 
+    }
+    section input {
+        width: 25rem; 
+        padding: 0.8rem;
+    }
+
+    .resultados-receita {
+        width: 40rem; 
+    }
+
+    .resultados-pesquisa {
+        width: 40rem; 
+        height: 40vh; 
+    }
+
+    .item-resultado h2 {
+        font-size: 1.3rem; 
+    }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+    img, #top-imagem{ 
+        margin-top: 15%; 
+        margin-bottom: -6rem;
+        max-width: 400px;
+    }
+    #top-imagem {
+        margin-top: 150%;
+        margin-bottom: -3rem;
+    }
+
+    h1 {
+        font-size: 1.8rem; 
+        letter-spacing: 0.1rem; 
+    }
+
+    section input {
+        width: 17rem; 
+    }
+
+    section button, #home-button {
+        padding: 0.6rem 1rem; 
+        font-size: 0.9rem; 
+    }
+    
+
+    .resultados-receita {
+        width: 90%; 
+    }
+
+    .resultados-pesquisa {
+        width: 90%; 
+        height: 50vh; 
+    }
+
+    .item-resultado h2 {
+        font-size: 1.1rem; 
+    }
+
+    footer {
+        font-size: 0.9rem; 
+    }
+}
+
+/*
+- - - - - - - - - - - - <3
+Paleta de cores site:
+Ivory: #FFF5E7
+Celadon: #B2D7B4
+Moon White: #F2F2F2
+Sky Blue: #B0D4F1
+
+Gold: #D4AF37
+Copper: #B5651D
+Jade Green: #006400
+Cobalt Blue: #0047AB
+- - - - - - - - - - - - <3
+*/
