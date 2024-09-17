@@ -1,5 +1,5 @@
 # 📖 Meu Cantinho das Receitas 
-[Acesse meu projeto por aqui]()
+[Acesse meu projeto por aqui]() ![favicon-32x32](https://github.com/user-attachments/assets/f25a3cef-4d28-4a26-ba81-dc38e48bee59)
 ### **😋 Descubra um mundo de sabores delicioso!** 
 
 Neste repositório você encontrará o código-fonte do meu site pessoal de receitas. ‍ Criei esse projeto com muito carinho para organizar minhas receitas favoritas e compartilhar com amigos e familiares. 
@@ -23,3 +23,4 @@ Se você encontrou algum bug, tem alguma sugestão ou quer adicionar uma nova re
 ### **🍳 Vamos cozinhar juntos!** ‍‍
 
 Atenciosamente, Giulia.
+![doodle](https://github.com/user-attachments/assets/7b896678-d587-49d0-997f-ae20c5b294cc)
