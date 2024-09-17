@@ -20,7 +20,7 @@ Neste repositório você encontrará o código-fonte do meu site pessoal de rece
 ### **🗝️ Contribuições são bem-vindas!** 
 Se você encontrou algum bug, tem alguma sugestão ou quer adicionar uma nova receita, abra um issue ou um pull request. 
 
-### **🍳 Vamos cozinhar juntos!** ‍‍
+Vamos cozinhar juntos!
 
 Atenciosamente, Giulia.
 ![doodle](https://github.com/user-attachments/assets/7b896678-d587-49d0-997f-ae20c5b294cc)
