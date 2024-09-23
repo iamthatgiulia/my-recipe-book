@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-img, #top-imagem{
-    width: 100%; 
-    height: auto; 
-    max-width: 700px; 
-    margin-top: 30%;
-    margin-bottom: -7rem; 
-    object-fit: contain;
-}
-
 html, body {
     height: 100%;
     margin: 0;
@@ -21,10 +12,18 @@ body{
     display: flex; 
     flex-direction: column; 
     align-items: center; 
-    justify-content: center; 
+    justify-content: start; 
     height: 100vh; 
     margin: 0; 
     padding: 0; 
+}
+
+img, #top-imagem{
+    width: 100%; 
+    height: auto; 
+    max-width: 700px; 
+    margin-bottom: -7rem; 
+    object-fit: contain;
 }
 
 h1{
@@ -33,9 +32,6 @@ h1{
     text-align: center; 
 }
 
-main {
-    flex: 1;
-}
 section {
     display: flex; 
     flex-direction: column; 
@@ -79,10 +75,6 @@ section button:hover, #home-button:hover {
 #botao-buscar:hover{
     background-color: #a81010;
     box-shadow: 0 4px 8px #630c0c;
-}
-
-#top-imagem{
-    margin-top: 90%;
 }
 
 #home-button{
@@ -155,12 +147,10 @@ footer {
 /* Responsividade para telas menores */
 @media (max-width: 768px) {
     img, #top-imagem{ 
-        margin-top: 30%; 
         margin-bottom: -8rem; 
         max-width: 600px;
     }
     #top-imagem {
-        margin-top: 110%;
         margin-bottom: -5rem;
     }
     h1 {
@@ -189,12 +179,10 @@ footer {
 /* Responsividade para celulares */
 @media (max-width: 480px) {
     img, #top-imagem{ 
-        margin-top: 15%; 
         margin-bottom: -6rem;
         max-width: 400px;
     }
     #top-imagem {
-        margin-top: 150%;
         margin-bottom: -3rem;
     }
 
