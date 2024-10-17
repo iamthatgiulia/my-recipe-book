@@ -6,7 +6,7 @@ Neste repositório você encontrará o código-fonte do meu site pessoal de rece
 
 ### **🔭 O que você vai encontrar por aqui:**
 
-* **Um banco de dados repleto de delícias:**   Guardo todas as minhas receitas em um banco de dados dinâmico, para que você possa navegar facilmente e encontrar a receita perfeita para qualquer ocasião.
+* **Um banco de dados repleto de delícias:**   Guardo todas as minhas receitas em um banco de dados estático, para que você possa navegar facilmente e encontrar a receita perfeita para qualquer ocasião.
 * **Design clean e intuitivo:**   Criei cada detalhe do design, desde as cores até o favicon, para proporcionar uma experiência agradável e fácil de usar.
 * **Tecnologias utilizadas:**   Javascript, HTML e CSS foram as minhas ferramentas para dar vida a este projeto. 
 * **Código aberto e colaborativo:**   Sinta-se à vontade para contribuir com novas receitas, sugestões de melhorias ou até mesmo traduzir o site para outros idiomas.
